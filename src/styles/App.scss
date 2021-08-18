@@ -5,6 +5,7 @@ body {
   padding: 0;
   height: 100vh;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .app {
@@ -52,17 +53,17 @@ body {
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid rgba(22, 76, 167, 0.6);
-}
 
-.button p {
-  color: black;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.7px;
-}
+  &:hover {
+    background-color: lightgray;
+  }
 
-.button:hover {
-  background-color: lightgray;
+  p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
